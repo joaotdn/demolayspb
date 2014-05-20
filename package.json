@@ -1,0 +1,21 @@
+{
+  "name": "ordemdemolay",
+  "version": "1.0.0",
+  "title": "Ordem Demolay | GCEPB",
+  "homepage": "http://ordemdemolay.org",
+  "description": "Grande Conselho Nº4 da Ordem Demolay do Estado da Paraíba",
+  "author": "http://about.me/jteodoro",
+  "tags": "demolays, paraiba",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaotdn/demolayspb.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-spritesmith": "^1.24.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-imagemin": "^0.7.0"
+  }
+}
