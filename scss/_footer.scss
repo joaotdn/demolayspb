@@ -1,0 +1,17 @@
+#footer {
+	@include padY(rem-calc(20));
+	background: #333;
+}
+
+.button-submit {
+	@include button(
+		$padding: rem-calc(12),
+		$bg: $primary-color
+	);
+}
+
+.credits {
+	p {
+		margin-bottom: 0;
+	}
+}

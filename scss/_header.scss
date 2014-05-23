@@ -1,0 +1,56 @@
+//Top bar
+.top-menu {
+	@include padY;
+	background-color: $primary-color;
+}
+
+#header {
+	@extend %padding-y;
+}
+
+//Main menu
+.main-menu {
+	overflow: visible !important;
+	li {
+		@extend %rel;
+		&:hover {
+			.sub-menu {
+				left: 0;
+			}
+		}
+	}
+}
+
+.sub-menu {
+	@extend %abs;
+	top: 75%;
+	left: -10000px;
+	z-index: 999;
+	background-color: white;
+	padding: rem-calc(10);
+	min-width: rem-calc(200);
+
+	a {
+		color: #222;
+		text-transform: uppercase;
+		font-family: 'Homenaje',Arial;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+}
+
+//Menu mobile
+.button-menu {
+	@include button(
+		$bg : shade($primary-color, 30%),
+		$padding : rem-calc(5)
+	);
+	margin: 0;
+	margin-left: rem-calc(10);
+	@include border-radius(rem-calc(5));
+	span {
+		margin-right: rem-calc(10);
+	}
+}

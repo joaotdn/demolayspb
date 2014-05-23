@@ -1,0 +1,155 @@
+/**
+ * Main slider
+ */
+.main-slide {
+	@extend %margin-bottom;
+	
+	li {
+		display: block;
+		height: rem-calc(420);
+		background-color: #222;
+
+		&.blue {
+			background-color: #006699;
+		}
+
+		&.red {
+			background-color: #cc0000;
+		}
+	}
+}
+
+//Ultimas noticias
+%thumb-n-height {
+	height: rem-calc(188);
+}
+
+.last-news {
+
+	li {
+		background-color: white;
+		margin-bottom: rem-calc(10);
+		@extend %thumb-n-height;
+	}
+
+	figcaption {
+		@include padY(rem-calc(10));
+	}
+
+	p {
+		border-bottom: 1px solid #ccc;
+		margin-bottom: rem-calc(10);
+		padding-bottom: rem-calc(20);
+	}
+}
+
+.news-thumb {
+	@extend %thumb-n-height;
+	@extend %ov-hidden;
+	img {
+		@extend %tr;
+		&:hover {
+			@include scale(1.05);
+		}
+	}
+}
+
+.nav-caroussel {
+	a {
+		padding: rem-calc(6) 0;
+		background-color: #eaeaea;
+		@extend %tr;
+		&:hover {
+			background-color: #ccc;
+		}
+	}
+
+	margin-bottom: rem-calc(20);
+}
+
+//Ultimos eventos
+.last-events {
+
+	li {
+		border-bottom: 1px solid #eaeaea;
+		margin-bottom: rem-calc(10);
+
+		&:last-child {
+			border: none;
+		}
+	}
+}
+
+//Colunistas
+.last-columns {
+	margin-bottom: rem-calc(20);
+}
+
+.columnist-thumb {
+	@extend %bg-cover;
+	height: rem-calc(112);
+	@include border-radius(50%);
+}
+
+//Videos
+.video-thumb {
+	height: rem-calc(296);
+	@extend %ov-hidden;
+
+	img {
+		width: 100%;
+	}
+	figcaption {
+		@extend %tr;
+		@include padY(rem-calc(10));
+		background-color: rgba(#333, .5);
+		bottom: -100%;
+	}
+	&:hover {
+		.icon-play {
+			@include scale(1.1);
+		}
+		figcaption {
+			bottom: 0;
+		}
+	}
+}
+
+.icon-play {
+	left: rem-calc(192);
+	top: rem-calc(100);
+	@extend %tr;
+}
+
+//Ultimos eventos
+.dm-galleries {
+	margin-top: rem-calc(20);
+}
+
+.list-events {
+	li {
+		padding: 0 !important;
+	}
+
+	figcaption {
+		background-color: #FFF;
+		bottom: 0;
+		@extend %tr-opacity;
+		@include opacity(0);
+		padding: rem-calc(10);
+		padding-left: rem-calc(20);
+	}
+	a {
+		color: #222;
+	}
+}
+
+.event-thumb {
+	@extend %rel;
+
+	&:hover {
+		figcaption {
+			@include opacity(1);
+		}
+	}
+}

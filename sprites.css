@@ -1,0 +1,66 @@
+.icon-calendar {
+  background-image: url(images/spritesheet.png);
+  background-position: -396px -176px;
+  width: 18px;
+  height: 19px;
+}
+.icon-down {
+  background-image: url(images/spritesheet.png);
+  background-position: -410px -196px;
+  width: 16px;
+  height: 9px;
+}
+.icon-file {
+  background-image: url(images/spritesheet.png);
+  background-position: -414px -176px;
+  width: 18px;
+  height: 19px;
+}
+.icon-lock {
+  background-image: url(images/spritesheet.png);
+  background-position: -397px -196px;
+  width: 13px;
+  height: 18px;
+}
+.icon-logo-mo {
+  background-image: url(images/spritesheet.png);
+  background-position: 0px -140px;
+  width: 300px;
+  height: 95px;
+}
+.icon-logo {
+  background-image: url(images/spritesheet.png);
+  background-position: 0px 0px;
+  width: 444px;
+  height: 140px;
+}
+.icon-menu {
+  background-image: url(images/spritesheet.png);
+  background-position: -376px -176px;
+  width: 20px;
+  height: 20px;
+}
+.icon-play {
+  background-image: url(images/spritesheet.png);
+  background-position: -300px -140px;
+  width: 76px;
+  height: 77px;
+}
+.icon-search {
+  background-image: url(images/spritesheet.png);
+  background-position: -376px -140px;
+  width: 62px;
+  height: 36px;
+}
+.icon-up {
+  background-image: url(images/spritesheet.png);
+  background-position: -426px -196px;
+  width: 16px;
+  height: 9px;
+}
+.icon-video {
+  background-image: url(images/spritesheet.png);
+  background-position: -376px -196px;
+  width: 21px;
+  height: 19px;
+}

@@ -1,0 +1,46 @@
+//Placeholders
+%padding-y {
+	padding-top: rem-calc(20);
+	padding-bottom: rem-calc(20);
+}
+
+%margin-bottom {
+	margin-bottom: rem-calc(20);
+}
+
+%tr-color {
+	@include single-transition(color, .3s, linear);
+}
+
+%tr {
+	@include single-transition;
+}
+
+%tr-opacity {
+	@include single-transition(opacity, .3s, linear);
+}
+
+%rel {
+	position: relative;
+}
+
+%abs {
+	position: absolute;
+}
+
+%ov-hidden {
+	overflow: hidden;
+}
+
+%bg-cover {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+//Mixins
+@mixin padY($value : rem-calc(5)) {
+	padding-top: $value;
+	padding-bottom: $value;
+}

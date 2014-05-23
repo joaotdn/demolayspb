@@ -1,0 +1,52 @@
+//Busca
+.form-search {
+	background-color: #FFF;
+	@extend %rel;
+	@include border-radius(rem-calc(75));
+	border: 1px solid #ccc;
+	padding: 2px;
+
+	input {
+		border: none;
+		box-shadow: 0 0 0 #999;
+		background-color: transparent;
+		margin: 0;
+		&[type="text"] {
+			width: 75%;
+			margin-left: rem-calc(10);
+		}
+	}
+	input:focus {
+		box-shadow: 0 0 0 #999;
+		background-color: transparent;
+	}
+}
+
+.search-submit {	
+	cursor: pointer;
+	@extend %abs;
+	top: rem-calc(2.5); right: rem-calc(2);
+}
+
+//Serviços
+.list-services {
+	margin-top: rem-calc(20);
+	img {
+		@include border-radius;
+		@extend %tr-opacity;
+		&:hover {
+			@include opacity(.8);
+		}
+	}
+}
+
+//Enquetes
+.vote-form {
+	span {
+		margin-left: rem-calc(15);
+	}
+}
+
+.vote-results {
+	margin-top: rem-calc(10);
+}
