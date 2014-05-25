@@ -11,3 +11,10 @@ $(".last-news").jCarouselLite({
     visible: 2,
     auto: 8000
 });
+
+//Clonar blocos em outros blocos
+function cloneContent(from,inner) {
+    $( from ).clone().appendTo( inner );
+};
+
+cloneContent('.vote-section','.hide-sidebar');

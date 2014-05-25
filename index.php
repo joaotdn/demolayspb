@@ -113,6 +113,7 @@
         </nav><!-- //Serviços -->
 
         <section class="small-16 show-for-large-up left vote-form">
+          <div class="vote-section small-16 left">
           <header class="small-16 left widget-header">
             <h4 class="text-upp red left">Enquete</h4>  
             <div class="line-red abs"></div>
@@ -129,9 +130,11 @@
             <a href="#" class="button left radius">Votar</a>
             <a href="#" class="left vote-results"><span>Resultados</span></a>
           </form>
+          </div>
         </section><!-- //enquetes -->
 
         <section class="small-16 left show-for-large-up">
+
           <header class="small-16 left widget-header">
             <h4 class="text-upp red left">Siga nosso Facebook</h4>  
             <div class="line-red abs"></div>
@@ -311,6 +314,10 @@
         </nav>
 
       </section><!-- //mural de recados -->
+
+      <section class="hide-sidebar small-16 columns hide-for-large-up">
+        
+      </section><!-- //conteudo clonado -->
     </div><!-- //row -->
 
     <section class="small-16 left dm-galleries">

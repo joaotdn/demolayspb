@@ -95,6 +95,7 @@
 .video-thumb {
 	height: rem-calc(296);
 	@extend %ov-hidden;
+	@extend %margin-bottom;
 
 	img {
 		width: 100%;
