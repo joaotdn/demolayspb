@@ -1,24 +1,30 @@
 .icon-calendar {
   background-image: url(images/spritesheet.png);
-  background-position: -396px -176px;
+  background-position: -414px -176px;
   width: 18px;
   height: 19px;
 }
+.icon-chat {
+  background-image: url(images/spritesheet.png);
+  background-position: -397px -196px;
+  width: 18px;
+  height: 18px;
+}
 .icon-down {
   background-image: url(images/spritesheet.png);
-  background-position: -410px -196px;
+  background-position: -428px -196px;
   width: 16px;
   height: 9px;
 }
 .icon-file {
   background-image: url(images/spritesheet.png);
-  background-position: -414px -176px;
+  background-position: -396px -176px;
   width: 18px;
   height: 19px;
 }
 .icon-lock {
   background-image: url(images/spritesheet.png);
-  background-position: -397px -196px;
+  background-position: -415px -196px;
   width: 13px;
   height: 18px;
 }
@@ -54,7 +60,7 @@
 }
 .icon-up {
   background-image: url(images/spritesheet.png);
-  background-position: -426px -196px;
+  background-position: -428px -205px;
   width: 16px;
   height: 9px;
 }

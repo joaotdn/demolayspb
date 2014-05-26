@@ -17,4 +17,5 @@ function cloneContent(from,inner) {
     $( from ).clone().appendTo( inner );
 };
 
+cloneContent('.list-services','.hide-sidebar');
 cloneContent('.vote-section','.hide-sidebar');

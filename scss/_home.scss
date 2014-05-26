@@ -87,6 +87,7 @@
 
 .columnist-thumb {
 	@extend %bg-cover;
+	width: rem-calc(112);
 	height: rem-calc(112);
 	@include border-radius(50%);
 }

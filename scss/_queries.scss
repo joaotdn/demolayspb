@@ -1,0 +1,20 @@
+
+@media #{$small-only} { 
+	/**
+	 * Slide principal
+	 */
+	.main-slide {
+		li {
+			height: rem-calc(300);
+		}
+	}
+
+	/**
+	 * Lista de servicos
+	 */
+	.list-services {
+		li {
+			text-align: center;
+		}
+	}
+}

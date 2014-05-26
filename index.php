@@ -85,8 +85,9 @@
             <input type="submit" value="" class="display-block search-submit icon-search">
           </div>
         </form><!-- //busca -->
-
-        <nav class="list-services small-16 left">
+        
+        <div class="show-for-large-up">
+        <nav class="list-services small-16 show-for-large-up left">
           <ul class="large-block-grid-1 medium-block-grid-3 small-block-grid-1">
             <li>
               <figure>
@@ -111,6 +112,7 @@
             </li>
           </ul>
         </nav><!-- //Serviços -->
+        </div>
 
         <section class="small-16 show-for-large-up left vote-form">
           <div class="vote-section small-16 left">
@@ -531,6 +533,8 @@
       </div>
     </footer>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -540,8 +544,5 @@
     fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     </script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
   </body>
 </html>
