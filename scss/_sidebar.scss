@@ -52,3 +52,19 @@
 }
 
 //Facebook
+
+//Ultimas noticias
+.sidebar-news {
+	li {
+		width: 100%; float: left;
+		margin-bottom: rem-calc(10);
+		padding-bottom: rem-calc(10);
+		border-bottom: 1px solid #ccc;
+
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border: none;
+		}
+	}
+}

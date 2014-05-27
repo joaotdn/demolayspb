@@ -17,4 +17,20 @@
 			text-align: center;
 		}
 	}
+
+	/**
+	 * Postagem
+	 */
+	.post-content {
+		margin-top: rem-calc(20);
+	}
+}
+
+@media #{$medium-only} { 
+	/**
+	 * Postagem
+	 */
+	.post-content {
+		margin-top: rem-calc(20);
+	}
 }

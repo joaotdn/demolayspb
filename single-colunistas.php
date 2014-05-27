@@ -196,6 +196,44 @@
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, hic, maiores, temporibus sint iusto dolor itaque sed unde vel molestias assumenda reiciendis quia ipsum. Adipisci, distinctio quis accusantium nemo id!</p>
         </section><!-- //conteudo -->
+
+        <footer class="columnist-about small-16 left">
+          <header class="small-16 left">
+            <h4 class="grey">Escrito por:</h4>
+          </header>
+          
+          <figure class="small-16 left">
+            <a href="#" class="display-block columnist-single-thumb left" style="background-image: url(media/col1.jpg);"></a>
+            <figcaption class="large-13 medium-13 small-10 columns">
+              <h4 class="small-16 left columnist-name">Ricardo Almeida</h4>
+              <p class="grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aliquam, minima, tempora error deserunt quae aliquid optio accusamus ab hic sint ipsa laudantium dolorum quia facere sit quibusdam beatae praesentium.</p>
+            </figcaption>
+          </figure>
+
+          <nav class="last-columns small-16 left">
+            <header class="small-16 left">
+              <h4 class="grey">Mais colunas de Ricardo Almeida</h4>
+            </header>
+            <ul class="large-block-grid-4 medium-block-grid-2 small-block-grid-2">
+              <li>
+                <span class="grey">10/04/2014</span>
+                <p><a href="#" class="" title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi.</a></p>
+              </li>
+              <li>
+                <span class="grey">10/04/2014</span>
+                <p><a href="#" class="" title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi.</a></p>
+              </li>
+              <li>
+                <span class="grey">10/04/2014</span>
+                <p><a href="#" class="" title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi.</a></p>
+              </li>
+              <li>
+                <span class="grey">10/04/2014</span>
+                <p><a href="#" class="" title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi.</a></p>
+              </li>
+            </ul>
+          </nav>
+        </footer>
       </article><!-- //post -->
 
       <section id="comments-section" class="large-12 medium-16 small-16 columns">

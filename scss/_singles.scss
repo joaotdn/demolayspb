@@ -1,3 +1,46 @@
 .comment-anchor {
 	margin-left: rem-calc(10);
 }
+
+.share-bar {
+	@include padY(rem-calc(5));
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: rem-calc(10) 0 rem-calc(20) 0;
+}
+
+.twitter-share-button {
+	margin-left: rem-calc(10);
+}
+
+#comments-section {
+	header {
+		//border-bottom: 1px solid #ccc;
+		@extend %margin-bottom;
+	}
+}
+
+.sidebar-news {
+	@extend %margin-top;
+}
+
+.columnist-single-thumb {
+	@extend %bg-cover;
+	@extend %margin-bottom;
+	@include border-radius(50%);
+	width: rem-calc(110);
+	height: rem-calc(110);
+}
+
+.columnist-name {
+	border-bottom: 1px solid #ccc;
+}
+
+.last-columns {
+	li {
+		border-left: 1px solid #ccc;
+		&:first-child {
+			border: none;
+		}
+	}
+}

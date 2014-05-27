@@ -8,6 +8,10 @@
 	margin-bottom: rem-calc(20);
 }
 
+%margin-top {
+	margin-top: rem-calc(20);
+}
+
 %tr-color {
 	@include single-transition(color, .3s, linear);
 }
