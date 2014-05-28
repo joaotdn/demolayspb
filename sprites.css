@@ -1,6 +1,12 @@
+.icon-bottom {
+  background-image: url(images/spritesheet.png);
+  background-position: -376px -176px;
+  width: 28px;
+  height: 28px;
+}
 .icon-calendar {
   background-image: url(images/spritesheet.png);
-  background-position: -396px -196px;
+  background-position: -187px -235px;
   width: 18px;
   height: 19px;
 }
@@ -12,19 +18,43 @@
 }
 .icon-down {
   background-image: url(images/spritesheet.png);
-  background-position: -331px -217px;
+  background-position: -376px -204px;
   width: 16px;
   height: 9px;
 }
 .icon-file {
   background-image: url(images/spritesheet.png);
-  background-position: -414px -196px;
+  background-position: -169px -235px;
   width: 18px;
   height: 19px;
 }
+.icon-grid-red {
+  background-image: url(images/spritesheet.png);
+  background-position: -29px -235px;
+  width: 24px;
+  height: 24px;
+}
+.icon-grid {
+  background-image: url(images/spritesheet.png);
+  background-position: -404px -176px;
+  width: 24px;
+  height: 24px;
+}
+.icon-list-red {
+  background-image: url(images/spritesheet.png);
+  background-position: -53px -235px;
+  width: 29px;
+  height: 24px;
+}
+.icon-list {
+  background-image: url(images/spritesheet.png);
+  background-position: 0px -235px;
+  width: 29px;
+  height: 24px;
+}
 .icon-lock {
   background-image: url(images/spritesheet.png);
-  background-position: -318px -217px;
+  background-position: -428px -176px;
   width: 13px;
   height: 18px;
 }
@@ -42,7 +72,7 @@
 }
 .icon-menu {
   background-image: url(images/spritesheet.png);
-  background-position: -376px -196px;
+  background-position: -149px -235px;
   width: 20px;
   height: 20px;
 }
@@ -54,9 +84,15 @@
 }
 .icon-print {
   background-image: url(images/spritesheet.png);
-  background-position: -376px -176px;
+  background-position: -82px -235px;
   width: 67px;
   height: 20px;
+}
+.icon-right {
+  background-image: url(images/spritesheet.png);
+  background-position: -318px -217px;
+  width: 10px;
+  height: 16px;
 }
 .icon-search {
   background-image: url(images/spritesheet.png);
@@ -66,13 +102,13 @@
 }
 .icon-up {
   background-image: url(images/spritesheet.png);
-  background-position: -347px -217px;
+  background-position: -392px -204px;
   width: 16px;
   height: 9px;
 }
 .icon-video {
   background-image: url(images/spritesheet.png);
-  background-position: 0px -235px;
+  background-position: -205px -235px;
   width: 21px;
   height: 19px;
 }

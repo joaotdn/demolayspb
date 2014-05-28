@@ -24,6 +24,13 @@
 	.post-content {
 		margin-top: rem-calc(20);
 	}
+
+	/**
+	 * Form de busca
+	 */
+	.form-search {
+		margin-bottom: rem-calc(20);
+	}
 }
 
 @media #{$medium-only} { 
@@ -33,4 +40,10 @@
 	.post-content {
 		margin-top: rem-calc(20);
 	}
+
+	/**
+	 * Form de busca
+	 */.form-search {
+	 	margin-bottom: rem-calc(20);
+	 }
 }

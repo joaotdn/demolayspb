@@ -1,0 +1,24 @@
+.nav-posts {
+	header {
+		@extend %margin-bottom;
+		border-bottom: 1px solid #ccc;
+	}
+
+	figure {
+		padding-bottom: rem-calc(20);
+		border-bottom: 1px solid #ccc;
+	}
+}
+
+.post-thumb {
+	padding-right: rem-calc(10);
+}
+
+.share-post {
+	@extend %margin-top;
+}
+.choose-view {
+	a {
+		margin-left: rem-calc(10);
+	}
+}

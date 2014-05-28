@@ -1,0 +1,45 @@
+/**
+ * Menu de subpaginas
+ */
+.button-accordion {
+	padding: rem-calc(16);
+	margin: 0;
+	@include border-radius(10px 10px 0 0);
+
+	h4 {
+		margin: 0;
+	}
+}
+
+.accordion {
+	li {
+		a {
+			display: block;
+			width: 100%;
+			float: left;
+			padding: rem-calc(10);
+			font-size: rem-calc(16);
+			color: #f1a7a7;
+			font-family: 'Homenaje',Arial !important;
+			border-bottom: 1px solid #c82c16;
+			@extend %tr;
+			&:hover, &.active {
+				background-color: shade($primary-color, 20%);
+				text-decoration: none;
+				color: white;
+			}
+
+			span {
+				margin-right: rem-calc(10);
+			}
+		}
+	}
+}
+
+/**
+ * Conteudo
+ */
+.page-header {
+	@extend %margin-bottom;
+	border-bottom: 1px solid #ccc;
+}
