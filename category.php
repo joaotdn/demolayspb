@@ -291,6 +291,18 @@
             </li>
           </ul>
         </nav>
+
+        <ul class="pagination">
+          <li class="arrow unavailable"><a href="">&laquo;</a></li>
+          <li class="current"><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li class="unavailable"><a href="">&hellip;</a></li>
+          <li><a href="">12</a></li>
+          <li><a href="">13</a></li>
+          <li class="arrow"><a href="">&raquo;</a></li>
+        </ul>
       </section> 
       
       <section class="hide-sidebar small-16 columns hide-for-large-up"></section><!-- //conteudo clonado -->
