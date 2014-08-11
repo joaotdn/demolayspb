@@ -12,6 +12,10 @@
 
 .post-thumb {
 	padding-right: rem-calc(10);
+
+	img {
+		@extend .th;
+	}
 }
 
 .share-post {

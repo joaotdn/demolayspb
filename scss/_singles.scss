@@ -16,7 +16,7 @@
 #comments-section {
 	header {
 		//border-bottom: 1px solid #ccc;
-		@extend %margin-bottom;
+		margin-top: rem-calc(20);
 	}
 }
 
@@ -43,4 +43,46 @@
 			border: none;
 		}
 	}
+}
+
+//Wordpress classes
+.alignleft {
+	float: left;
+	margin-right: rem-calc(10);
+	@extend .th;
+}
+
+.alignright {
+	float: right;
+	margin-left: rem-calc(10);
+	@extend .th;
+}
+
+.aligncenter {
+	width: 100%;
+	float: left;
+	@extend .th;
+
+	img {
+		width: 100%;
+	}
+}
+
+//galerias
+#slideshow-1 {
+	width: 100%;
+	float: left;
+	height: rem-calc(600);
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		float: left;
+	}
+}
+
+.gallery-slide {
+	width: 100%;
+	height: rem-calc(600);
+	float: left;
 }

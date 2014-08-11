@@ -31,9 +31,24 @@
 	.form-search {
 		margin-bottom: rem-calc(20);
 	}
+
+	//galerias
+	#slideshow-1 , .gallery-slide {
+		height: rem-calc(320);
+	}
+
+	//imagens no post 
+	.alignleft, .alignright, .aligncenter {
+		display: none;
+	}
 }
 
 @media #{$medium-only} { 
+	.row {
+		width: rem-calc(800) !important;
+		min-width: rem-calc(800) !important;
+		max-width: rem-calc(800) !important;
+	}
 	/**
 	 * Postagem
 	 */
@@ -46,4 +61,21 @@
 	 */.form-search {
 	 	margin-bottom: rem-calc(20);
 	 }
+}
+
+@media #{$large-up} {
+	.row {
+		width: rem-calc(1280) !important;
+		min-width: rem-calc(1280) !important;
+		max-width: rem-calc(1280) !important;
+	}
+
+	//Videos home
+	.block-video {
+		height: 100%;
+		img {
+			height: 100% !important;
+			width: auto !important;
+		}
+	}
 }

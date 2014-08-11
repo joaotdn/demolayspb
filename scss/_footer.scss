@@ -8,10 +8,30 @@
 		$padding: rem-calc(12),
 		$bg: $primary-color
 	);
+	margin: 0 !important;
 }
 
 .credits {
 	p {
 		margin-bottom: 0;
+	}
+}
+
+.footer-menu {
+	.sub-menu {
+		display: none;
+	}
+
+	li {
+		a {
+			color: #fff;
+			font-family: Homenaje,Arial;
+			font-size: rem-calc(14);
+			text-transform: uppercase;
+
+			&:hover {
+				color: #f1f1f1;
+			}
+		}
 	}
 }

@@ -4,13 +4,13 @@
   width: 28px;
   height: 28px;
 }
-.icon-calendar {
+.icon-calendar2 {
   background-image: url(images/spritesheet.png);
   background-position: -187px -235px;
   width: 18px;
   height: 19px;
 }
-.icon-chat {
+.icon-comment {
   background-image: url(images/spritesheet.png);
   background-position: -300px -217px;
   width: 18px;
@@ -40,19 +40,19 @@
   width: 24px;
   height: 24px;
 }
-.icon-list-red {
+.icon-list-grey {
   background-image: url(images/spritesheet.png);
   background-position: -53px -235px;
   width: 29px;
   height: 24px;
 }
-.icon-list {
+.icon-list-red {
   background-image: url(images/spritesheet.png);
   background-position: 0px -235px;
   width: 29px;
   height: 24px;
 }
-.icon-lock {
+.icon-lock2 {
   background-image: url(images/spritesheet.png);
   background-position: -428px -176px;
   width: 13px;
@@ -70,13 +70,13 @@
   width: 444px;
   height: 140px;
 }
-.icon-menu {
+.icon-menu3 {
   background-image: url(images/spritesheet.png);
   background-position: -149px -235px;
   width: 20px;
   height: 20px;
 }
-.icon-play {
+.icon-play2 {
   background-image: url(images/spritesheet.png);
   background-position: -300px -140px;
   width: 76px;
@@ -106,7 +106,7 @@
   width: 16px;
   height: 9px;
 }
-.icon-video {
+.icon-video2 {
   background-image: url(images/spritesheet.png);
   background-position: -205px -235px;
   width: 21px;

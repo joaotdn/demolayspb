@@ -23,7 +23,7 @@
 			font-family: 'Homenaje',Arial !important;
 			border-bottom: 1px solid #c82c16;
 			@extend %tr;
-			&:hover, &.active {
+			&:hover {
 				background-color: shade($primary-color, 20%);
 				text-decoration: none;
 				color: white;
@@ -33,7 +33,20 @@
 				margin-right: rem-calc(10);
 			}
 		}
+
+		&.current_page_item {
+			a {
+				background-color: shade($primary-color, 20%);
+				text-decoration: none;
+				color: white;
+			}
+		}
 	}
+}
+
+.page-numbers {
+	@extend .inline-list;
+	@include pagination;
 }
 
 /**

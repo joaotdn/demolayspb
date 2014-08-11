@@ -7,7 +7,7 @@
         */
         get_sidebar( 'single' );
       ?>
-      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+      <?php if (have_posts()) : while (have_posts()) : the_post(); global $post; ?>
       <article class="large-12 medium-16 small-16 columns post-content">
         <header class="post-title small-16 left">
           <h2 class="red text-upp"><?php the_title(); ?></h2>
@@ -31,15 +31,14 @@
         </header>
 
         <section class="small-16 left the-content">
-          
-          <?php
-            if(in_category('videos')):
-              $values = get_post_custom_values('dm_video');  if($values[0] !== ''):
-          ?>
-          <figure class="flex-video small-16 left">
-            <?php echo $values[0]; ?>
-          </figure>
-          <?php else: echo ''; endif; endif; ?>
+         
+          <div class="panel callout radius">
+            <h3 class="red margin-bottom">Informações sobre o evento</h3>
+             <h4 class="grey"><span class="red">Data:</span> <?php echo get_field('data_evento',$post->ID) ?></h4>
+             <h4 class="grey"><span class="red">Cidade:</span> <?php echo get_field('cidade_evento',$post->ID) ?></h4>
+             <h4 class="grey"><span class="red">Local:</span> <?php echo get_field('local_evento',$post->ID) ?></h4>
+             <h4 class="grey"><span class="red">Horário:</span> <?php echo get_field('horario_evento',$post->ID) ?></h4>
+          </div>
 
           <?php the_content(); ?>
         </section><!-- //conteudo -->

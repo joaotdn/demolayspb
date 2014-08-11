@@ -45,6 +45,13 @@
 	span {
 		margin-left: rem-calc(15);
 	}
+
+	button {
+		&[name="vote"] {
+			margin: 0;
+			margin-top: rem-calc(20);
+		}
+	}
 }
 
 .vote-results {

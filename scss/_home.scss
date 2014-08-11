@@ -8,13 +8,21 @@
 		display: block;
 		height: rem-calc(420);
 		background-color: #222;
+	}
 
-		&.blue {
-			background-color: #006699;
-		}
+	figure {
+		height: 100%;
+	}
 
-		&.red {
-			background-color: #cc0000;
+	figcaption {
+		padding: rem-calc(20);
+		bottom: 0;
+		background-color: rgba(#333,.8);
+	}
+
+	a {
+		&:hover {
+			color: #f1f1f1;
 		}
 	}
 }
@@ -108,7 +116,7 @@
 		bottom: -100%;
 	}
 	&:hover {
-		.icon-play {
+		.icon-play2 {
 			@include scale(1.1);
 		}
 		figcaption {
@@ -117,9 +125,14 @@
 	}
 }
 
-.icon-play {
-	left: rem-calc(192);
-	top: rem-calc(100);
+.play-container {
+	margin-top: 20%;
+	left: 0;
+	top: 0;
+}
+
+.icon-play2 {
+	margin: 0 auto;
 	@extend %tr;
 }
 

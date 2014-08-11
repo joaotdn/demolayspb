@@ -10,23 +10,18 @@
 
       <section class="nav-posts large-12 medium-16 small-16 columns">
         <header class="small-16 left">
-          <h2 class="text-upp left"><?php echo single_cat_title(); ?></h2>
-
-          <div class="right choose-view show-for-medium-up">
-            <a href="#" class="display-block grid-cat icon-grid left"></a>
-            <a href="#" class="display-block list-cat icon-list-red left"></a>
-          </div>
+          <h2 class="text-upp left"><span class="icon-video"></span> <?php echo single_cat_title(); ?></h2>
         </header>
 
         <nav class="list-posts small-16 left">
-          <ul class="small-block-grid-1 large-block-grid-1 medium-block-grid-1">
-            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <ul class="small-block-grid-2 large-block-grid-4 medium-block-grid-3 video-list">
+            <?php if (have_posts()) : while (have_posts()) : the_post(); global $post; ?>
             <li>
               <article class="small-16 left">
                 <time class="grey small-16 left"><small><?php the_time('d \d\e F \d\e Y') ?></small></time>
-                <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+                <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" data-reveal-id="video-modal" data-postid="<?php echo $post->ID; ?>"><?php the_title(); ?></a></h3>
                 <figure class="small-16 left">
-                  <a href="<?php the_permalink(); ?>" class="display-block left large-3 medium-3 small-4 post-thumb">
+                  <a href="<?php the_permalink(); ?>" class="display-block left small-16 post-thumb" data-reveal-id="video-modal" data-postid="<?php echo $post->ID; ?>">
                     <?php
                       if(has_post_thumbnail()) {
                         the_post_thumbnail( 'category-thumb' );
@@ -35,8 +30,8 @@
                       }
                     ?>
                   </a>
-                  <figcaption class="left large-13 medium-13 small-12">
-                    <a href="<?php the_permalink(); ?>" title="" class="grey"><?php get_excerpt(100); ?></a>
+                  <figcaption class="left small-16">
+                    <a href="<?php the_permalink(); ?>" title="" class="grey" data-reveal-id="video-modal" data-postid="<?php echo $post->ID; ?>"><?php get_excerpt(100); ?></a>
 
                     <div class="share-post small-16 left">
                       <div class="fb-share-button left" data-href="<?php the_permalink(); ?>" data-type="button_count"></div>
@@ -69,7 +64,14 @@
         ) );
         ?>
         </div><!-- //paginação -->
-
+        
+        <div id="video-modal" class="reveal-modal" data-reveal>
+          <div class="ajax-loader small-16 left text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/ajax-loader.gif" alt="">
+          </div>
+          <div class="flex-video"></div>
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
       </section> 
       
       <section class="hide-sidebar small-16 columns hide-for-large-up"></section><!-- //conteudo clonado -->
